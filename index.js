@@ -26,7 +26,7 @@ client.on('ready', () => {
         muteMessage: "Byl ztlumen na **10 minut** za spam!", 
         maxDuplicatesWarning: 7,
         maxDuplicatesMute: 10, 
-        ignoredRoles: ["Admin"], 
+        ignoredRoles: ["ADMINISTRATOR"], 
         ignoredMembers: [], 
         mutedRole: "muted",
         timeMuted: 1000 * 600, 
