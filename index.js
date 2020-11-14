@@ -11,10 +11,6 @@ const antispam = require('better-discord-antispam')
 
 client.on('message', msg => {
     client.emit('checkMessage', msg);
-    
-    
-
-
 })
 
 client.on('ready', () => {
@@ -26,8 +22,8 @@ client.on('ready', () => {
         muteMessage: "Byl ztlumen na **10 minut** za spam!", 
         maxDuplicatesWarning: 7,
         maxDuplicatesMute: 10, 
-        ignoredRoles: ["ADMINISTRATOR"], 
-        ignoredMembers: [], 
+        ignoredRoles: [''], 
+        ignoredMembers: [''], 
         mutedRole: "muted",
         timeMuted: 1000 * 600, 
         logChannel: "spam-logy🔊" 
@@ -168,8 +164,6 @@ client.on('ready', () => {
 
    
 })
-
-//ANTI SPAM//
 
 
 

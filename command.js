@@ -1,6 +1,5 @@
-const { ClientUser, Client, User, UserManager } = require('discord.js');
+const { ClientUser, Client, User, UserManager, DiscordAPIError } = require('discord.js');
 const {prefix} = require('./config.json')
-
 
 
 
